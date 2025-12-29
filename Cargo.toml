@@ -2,10 +2,10 @@
 name = "sysmap"
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
-description = "Intelligent project mapping for AI agents and humans"
+authors = ["Declan Finerty <declanfinerty@outlook.com>"]
+description = "Project Mapping CLI Tool for AI agents and humans"
 license = "MIT"
-repository = "https://github.com/yourusername/sysmap"
+repository = "https://github.com/DeclanFinerty/sysmap"
 keywords = ["cli", "project", "mapping", "ai", "development"]
 categories = ["command-line-utilities", "development-tools"]
 
