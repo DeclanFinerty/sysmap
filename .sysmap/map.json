@@ -1,0 +1,342 @@
+{
+  "version": "1.0",
+  "root": "/home/Declan/WorkCode/sysmap",
+  "project_type": {
+    "languages": [
+      "rust"
+    ],
+    "framework": null,
+    "detected_from": [
+      "Cargo.toml"
+    ]
+  },
+  "scanned_at": "2025-12-29T02:17:41.855941961Z",
+  "tree": {
+    "type": "directory",
+    "name": "sysmap",
+    "path": "",
+    "children": [
+      {
+        "type": "collapsed",
+        "name": ".git",
+        "path": ".git",
+        "reason": "Git repository",
+        "file_count": 64,
+        "dir_count": 46
+      },
+      {
+        "type": "file",
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "lines": null,
+        "language": null,
+        "purpose": null,
+        "modified": "2025-12-19T00:10:22Z"
+      },
+      {
+        "type": "file",
+        "name": "Cargo.lock",
+        "path": "Cargo.lock",
+        "lines": null,
+        "language": null,
+        "purpose": null,
+        "modified": "2025-12-29T01:37:49.522497073Z"
+      },
+      {
+        "type": "file",
+        "name": "Cargo.toml",
+        "path": "Cargo.toml",
+        "lines": 44,
+        "language": "toml",
+        "purpose": null,
+        "modified": "2025-12-19T00:10:22Z"
+      },
+      {
+        "type": "file",
+        "name": "README.md",
+        "path": "README.md",
+        "lines": 192,
+        "language": "markdown",
+        "purpose": null,
+        "modified": "2025-12-19T00:10:22Z"
+      },
+      {
+        "type": "file",
+        "name": "SPEC.md",
+        "path": "SPEC.md",
+        "lines": 536,
+        "language": "markdown",
+        "purpose": null,
+        "modified": "2025-12-19T00:10:22Z"
+      },
+      {
+        "type": "directory",
+        "name": "src",
+        "path": "src",
+        "children": [
+          {
+            "type": "file",
+            "name": "cli.rs",
+            "path": "src/cli.rs",
+            "lines": 92,
+            "language": "rust",
+            "purpose": null,
+            "modified": "2025-12-19T00:10:24Z"
+          },
+          {
+            "type": "file",
+            "name": "colors.rs",
+            "path": "src/colors.rs",
+            "lines": 91,
+            "language": "rust",
+            "purpose": null,
+            "modified": "2025-12-19T00:10:24Z"
+          },
+          {
+            "type": "directory",
+            "name": "commands",
+            "path": "src/commands",
+            "children": [
+              {
+                "type": "file",
+                "name": "find.rs",
+                "path": "src/commands/find.rs",
+                "lines": 197,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "init.rs",
+                "path": "src/commands/init.rs",
+                "lines": 93,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "mod.rs",
+                "path": "src/commands/mod.rs",
+                "lines": 5,
+                "language": "rust",
+                "purpose": "module",
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "summary.rs",
+                "path": "src/commands/summary.rs",
+                "lines": 428,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "tree.rs",
+                "path": "src/commands/tree.rs",
+                "lines": 183,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "update.rs",
+                "path": "src/commands/update.rs",
+                "lines": 48,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "config",
+            "path": "src/config",
+            "children": [
+              {
+                "type": "file",
+                "name": "mod.rs",
+                "path": "src/config/mod.rs",
+                "lines": 3,
+                "language": "rust",
+                "purpose": "module",
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "types.rs",
+                "path": "src/config/types.rs",
+                "lines": 57,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "main.rs",
+            "path": "src/main.rs",
+            "lines": 51,
+            "language": "rust",
+            "purpose": "entry",
+            "modified": "2025-12-19T00:10:24Z"
+          },
+          {
+            "type": "directory",
+            "name": "map",
+            "path": "src/map",
+            "children": [
+              {
+                "type": "file",
+                "name": "mod.rs",
+                "path": "src/map/mod.rs",
+                "lines": 3,
+                "language": "rust",
+                "purpose": "module",
+                "modified": "2025-12-19T00:10:24Z"
+              },
+              {
+                "type": "file",
+                "name": "types.rs",
+                "path": "src/map/types.rs",
+                "lines": 190,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:24Z"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "patterns",
+            "path": "src/patterns",
+            "children": [
+              {
+                "type": "file",
+                "name": "defaults.rs",
+                "path": "src/patterns/defaults.rs",
+                "lines": 303,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:24Z"
+              },
+              {
+                "type": "file",
+                "name": "matcher.rs",
+                "path": "src/patterns/matcher.rs",
+                "lines": 93,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:24Z"
+              },
+              {
+                "type": "file",
+                "name": "mod.rs",
+                "path": "src/patterns/mod.rs",
+                "lines": 5,
+                "language": "rust",
+                "purpose": "module",
+                "modified": "2025-12-19T00:10:24Z"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "scanner",
+            "path": "src/scanner",
+            "children": [
+              {
+                "type": "file",
+                "name": "mod.rs",
+                "path": "src/scanner/mod.rs",
+                "lines": 7,
+                "language": "rust",
+                "purpose": "module",
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "project.rs",
+                "path": "src/scanner/project.rs",
+                "lines": 110,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "stats.rs",
+                "path": "src/scanner/stats.rs",
+                "lines": 53,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              },
+              {
+                "type": "file",
+                "name": "walker.rs",
+                "path": "src/scanner/walker.rs",
+                "lines": 301,
+                "language": "rust",
+                "purpose": null,
+                "modified": "2025-12-19T00:10:26Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "collapsed",
+        "name": "target",
+        "path": "target",
+        "reason": "Rust build output",
+        "file_count": 1381,
+        "dir_count": 258
+      },
+      {
+        "type": "file",
+        "name": "test.ps1",
+        "path": "test.ps1",
+        "lines": 84,
+        "language": "powershell",
+        "purpose": null,
+        "modified": "2025-12-19T00:10:22Z"
+      },
+      {
+        "type": "file",
+        "name": "test.sh",
+        "path": "test.sh",
+        "lines": 87,
+        "language": "shell",
+        "purpose": null,
+        "modified": "2025-12-19T00:10:22Z"
+      }
+    ]
+  },
+  "patterns_matched": [
+    {
+      "pattern": ".git",
+      "path": ".git",
+      "files_collapsed": 64,
+      "dirs_collapsed": 46
+    },
+    {
+      "pattern": "target",
+      "path": "target",
+      "files_collapsed": 1381,
+      "dirs_collapsed": 258
+    }
+  ],
+  "meta": {
+    "total_files": 1472,
+    "indexed_files": 27,
+    "total_dirs": 9,
+    "scan_time_ms": 1
+  }
+}
