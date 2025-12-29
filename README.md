@@ -1,17 +1,17 @@
 # sysmap
 
-Intelligent project mapping for AI agents and humans.
+Project mapping CLI tool for AI agents and humans.
 
-`sysmap` generates compressed, pattern-aware representations of project directories. It helps AI coding assistants (and humans) quickly understand project structure without reading every file.
+`sysmap` generates compressed representations of project directories. It helps AI coding assistants (and humans) quickly understand project structure without reading every file.
 
 ## Features
 
 - **Pattern collapse**: Recognizes `node_modules/`, `.venv/`, `__pycache__/`, `target/`, `.git/` and collapses them
 - **Multi-language detection**: Identifies all languages in a project (Python, Rust, JavaScript, TypeScript, Go, Java, Ruby)
-- **Framework detection**: Detects Flask, Django, FastAPI, React, Vue, Next.js, and more
+- **Framework detection**: Detects Flask, Django, FastAPI, React, Vue, Next.js, etc.
 - **File purpose detection**: Identifies entry points, tests, config files, modules
 - **Line counting**: Shows lines of code per file and directory
-- **JSON output**: Machine-readable format for AI consumption
+- **JSON output**: Different output options for coding assistants
 - **Fast**: Scans thousands of files in milliseconds
 
 ## Installation
@@ -65,7 +65,7 @@ Display compressed project overview.
 
 ```bash
 sysmap summary         # Human-readable output
-sysmap summary --json  # JSON for AI agents
+sysmap summary --json  # JSON for AI support
 ```
 
 Example output:
