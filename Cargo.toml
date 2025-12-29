@@ -6,6 +6,7 @@ authors = ["Declan Finerty <declanfinerty@outlook.com>"]
 description = "Project Mapping CLI Tool for AI agents and humans"
 license = "MIT"
 repository = "https://github.com/DeclanFinerty/sysmap"
+readme = "README.md"
 keywords = ["cli", "project", "mapping", "ai", "development"]
 categories = ["command-line-utilities", "development-tools"]
 
